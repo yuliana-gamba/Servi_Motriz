@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registro de Usuario - ServiMotriz</title>
+
+<link rel="stylesheet" href="registro de usuario.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+
+<h2>Registro de Usuario</h2>
+
+<form>
+
+<label>Tipo de Identificación</label>
+<select required>
+<option value="">Seleccione</option>
+<option>Cédula</option>
+<option>Tarjeta de Identidad</option>
+<option>Pasaporte</option>
+</select>
+
+<label>Número de Identificación</label>
+<input type="text" placeholder="Ingrese el número de identificación" required>
+
+<label>Nombre</label>
+<input type="text" placeholder="Ingrese el nombre" required>
+
+<label>Apellido</label>
+<input type="text" placeholder="Ingrese el apellido" required>
+
+<label>Teléfono</label>
+<input type="text" placeholder="Ingrese el teléfono">
+
+<label>Correo</label>
+<input type="email" placeholder="Ingrese el correo">
+
+<label>Dirección</label>
+<input type="text" placeholder="Ingrese la dirección">
+
+<label>Género</label>
+<select>
+<option value="">Seleccione</option>
+<option>Masculino</option>
+<option>Femenino</option>
+<option>Otro</option>
+</select>
+
+<label>Rol</label>
+<select>
+<option value="">Seleccione</option>
+<option>Administrador</option>
+<option>Mecánico</option>
+<option>Recepcionista</option>
+</select>
+
+<label>Contraseña</label>
+<input type="password" placeholder="Ingrese la contraseña" required>
+
+<button type="submit" class="boton">
+Registrar Usuario
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
