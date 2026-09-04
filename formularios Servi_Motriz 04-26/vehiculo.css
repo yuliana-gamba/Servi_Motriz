@@ -1,7 +1,7 @@
 body{
 
 font-family: Arial, Helvetica, sans-serif;
-background:#f4f4f4;
+background:#000;
 
 display:flex;
 justify-content:center;
@@ -15,7 +15,7 @@ padding:20px;
 
 .contenedor{
 
-background:white;
+background:rgb(224, 223, 223);
 width:400px;
 
 padding:30px;
