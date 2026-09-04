@@ -2,27 +2,29 @@
 <html lang="es">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title> Marca - ServiMotriz</title>
-
+<title>Marca - ServiMotriz</title>
 <link rel="stylesheet" href="marca.css">
-
 </head>
 
 <body>
 
 <div class="contenedor">
 
-
-<h2> Marca</h2>
+<h2>Registro de Marca</h2>
 
 <form>
 
-<label>Nombre de la Marca</label>
-<input type="text" placeholder="Ingrese la marca del vehículo" required>
+<label for="marca">Seleccionar Marca</label>
+<select id="marca" required>
+<option value="" disabled selected>Seleccione una marca</option>
+<option value="toyota">Toyota</option>
+<option value="chevrolet">Chevrolet</option>
+<option value="mazda">Mazda</option>
+<option value="nissan">Nissan</option>
+<option value="ford">Ford</option>
+</select>
 
 <button type="submit" class="boton">
 Registrar Marca
