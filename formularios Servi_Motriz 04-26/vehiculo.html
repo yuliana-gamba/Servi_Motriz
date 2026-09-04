@@ -17,27 +17,34 @@
 <div class="contenedor">
 
 
-<h2> Vehículo</h2>
+<h2>Vehículo</h2>
 
 <form>
 
-<label>Placa</label>
-<input type="text" placeholder="Ingrese la placa del vehículo" required>
+<label for="placa">Placa</label>
+<input type="text" id="placa" placeholder="Ingrese la placa del vehículo" required>
 
-<label>Modelo</label>
-<input type="text" placeholder="Ingrese el modelo" required>
+<label for="modelo">Modelo</label>
+<input type="text" id="modelo" placeholder="Ingrese el modelo" required>
 
-<label>Color</label>
-<input type="text" placeholder="Ingrese el color">
+<label for="color">Color</label>
+<input type="text" id="color" placeholder="Ingrese el color">
 
-<label>Fecha de Registro</label>
-<input type="date" required>
+<label for="fecha-registro">Fecha de Registro</label>
+<input type="date" id="fecha-registro" required>
 
-<label>Marca</label>
-<input type="text" placeholder="Ingrese la marca del vehículo" required>
+<label for="marca">Marca</label>
+<select id="marca" required>
+<option value="" disabled selected>Seleccione una marca</option>
+<option value="toyota">Toyota</option>
+<option value="chevrolet">Chevrolet</option>
+<option value="mazda">Mazda</option>
+<option value="nissan">Nissan</option>
+<option value="ford">Ford</option>
+</select>
 
-<label>Propietario</label>
-<input type="text" placeholder="Ingrese el nombre del propietario" required>
+<label for="propietario">Propietario</label>
+<input type="text" id="propietario" placeholder="Ingrese el nombre del propietario" required>
 
 <button type="submit" class="boton">
 Registrar Vehículo
