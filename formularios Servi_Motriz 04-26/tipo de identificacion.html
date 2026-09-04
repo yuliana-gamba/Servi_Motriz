@@ -8,7 +8,7 @@
 
 <title>Tipo de Identificación - ServiMotriz</title>
 
-<link rel="stylesheet" href="tipo de identificacion.css">
+<link rel="stylesheet" href="tipoDeIdentificacion.css">
 
 </head>
 
@@ -20,8 +20,15 @@
 
 <form>
 
-<label>Tipo de Identificación</label>
-<input type="text" placeholder="Ingrese el tipo de identificación" required>
+<label for="tipo-identificacion">Tipo de Identificación</label>
+<select id="tipo-identificacion" required>
+<option value="" disabled selected>Seleccione un tipo de identificación</option>
+<option value="cc">Cédula de Ciudadanía</option>
+<option value="ce">Cédula de Extranjería</option>
+<option value="nit">NIT</option>
+<option value="pasaporte">Pasaporte</option>
+<option value="ti">Tarjeta de Identidad</option>
+</select>
 
 <button type="submit" class="boton">
 Registrar Tipo
